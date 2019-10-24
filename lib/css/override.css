@@ -1,0 +1,242 @@
+/* -----------------BOOTSTRAP------------------- */
+
+.social .navbar-right{margin-right:0;}
+.navbar-brand { 
+	height:initial;
+	padding:10px;
+}
+.subheader .navbar-nav>li>a{
+	  padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+	background-color: #ecf0f1;
+	color:#000;
+	text-align: center;
+}
+.navbar {
+	min-height: 40px;
+}
+.container .jumbotron{
+	margin:0;
+	padding: 0;
+	padding: 10px;
+}
+.row{
+	margin:0;
+}
+body header .navbar-inverse{
+	background-color: #34495e;
+	padding: 0;
+	margin: 0;
+	border-radius: 0;
+	border:none;
+}
+
+header .navbar-default .navbar-nav>li>a{
+	color:#000;
+	font-size: 1.3em
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	background-color: transparent;
+	color:#fff;
+}
+body header .navbar-inverse .call-us:hover{
+	border: none
+}
+body header .navbar .navbar-brand{
+    padding: 20px;
+    margin: 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.navbar-nav>li{
+	max-height:15px;
+}
+.nav>li>a
+.nav>li>a:focus, .nav>li>a:hover{
+	border-bottom: 2px solid #06EAEA;
+	color: #06EAEA
+}
+.nav>li>a.active{
+	border-bottom: 2px solid #444;
+  color: #000 !important;
+  font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color: #000 !important;
+  font-weight: bold;
+}
+.navbar-inner .container-fluid{
+	margin: 0 20px;
+}
+
+
+
+
+/*=========================
+  Icons
+ ================= */
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline-block;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	line-height:30px;
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 25px;
+	height: 25px;
+}
+
+.social-circle li a:hover i {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+.social-circle i {
+	-webkit-transition: all 0.8s ease;
+	-moz-transition: all 0.8s ease;
+	-o-transition: all 0.8s ease;
+	-ms-transition: all 0.8s ease;
+	transition: all 0.8s ease;
+}
+
+a {
+ /*background-color: #D3D3D3;  */ 
+}
+
+.caret-up {
+	width: 0; 
+	height: 0; 
+	border-left: 4px solid rgba(0, 0, 0, 0);
+	border-right: 4px solid rgba(0, 0, 0, 0);
+	border-bottom: 4px solid;
+	
+	display: inline-block;
+	margin-left: 2px;
+	vertical-align: middle;
+}
+
+
+
+
+
+.sl-slide blockquote{
+	border:0;
+}
+.sl-slide blockquote p{
+	color:#fff;
+	padding-bottom:40px;
+}
+.sl-slide h2{
+	font-size: 50px !important;
+	color:#FFF !important;
+}
+.sl-slide blockquote a:hover{
+	text-decoration: none;
+}
+
+@-webkit-keyframes moveFromTop {
+	from {
+		top: -600px;
+	}
+	to {
+		top: auto;
+	}
+
+}
+
+@-moz-keyframes moveFromTop {
+
+	from {
+		-moz-transform: translateY(-600%);
+	}
+	to {
+		-moz-transform: translateY(0%);
+	}
+
+}
+
+@-ms-keyframes moveFromTop {
+	from {
+		-ms-transform: translateY(-600%);
+	}
+	to {
+		-ms-transform: translateY(0%);
+	}
+}
+
+
+
+@-webkit-keyframes moveFromBottom {
+	from {
+		bottom: -400px;
+	}
+	to {
+		top: auto;
+	}
+}
+
+@-moz-keyframes moveFromBottom {
+	from {
+		-moz-transform: translateY(400%);
+	}
+	to {
+		-moz-transform: translateY(0%);
+	}
+}
+
+@-ms-keyframes moveFromBottom {
+	from {
+		-ms-transform: translateY(400%);
+	}
+	to {
+		-ms-transform: translateY(0%);
+	}
+}
+

@@ -1,0 +1,18 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 107.26 91.21">
+  <defs>
+    <linearGradient id="linear-gradient" x1="15.56" y1="45.61" x2="91.7" y2="45.61" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#55b6ff"/>
+      <stop offset="0.25" stop-color="#44c5fc"/>
+      <stop offset="0.73" stop-color="#16ecf3"/>
+      <stop offset="0.95" stop-color="#00ffef"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="22.89" y1="45.46" x2="84.37" y2="45.46" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="24.35" y1="47.74" x2="84.37" y2="47.74" xlink:href="#linear-gradient"/>
+  </defs>
+  <title>Freedom_Ancillary_Icons</title>
+  <g>
+    <path d="M84.35,76.46H22.91a7.36,7.36,0,0,1-7.35-7.35v-47a7.36,7.36,0,0,1,7.35-7.35H84.35A7.36,7.36,0,0,1,91.7,22.1v47A7.36,7.36,0,0,1,84.35,76.46ZM22.91,17.55a4.55,4.55,0,0,0-4.54,4.55v47a4.55,4.55,0,0,0,4.54,4.55H84.35a4.55,4.55,0,0,0,4.54-4.55v-47a4.55,4.55,0,0,0-4.54-4.55Z" fill="url(#linear-gradient)"/>
+    <path d="M78.51,68H28.75a5.87,5.87,0,0,1-5.86-5.86V28.81A5.87,5.87,0,0,1,28.75,23H78.51a5.87,5.87,0,0,1,5.86,5.86V62.1A5.87,5.87,0,0,1,78.51,68ZM28.75,25.64a3.17,3.17,0,0,0-3.17,3.17V62.1a3.17,3.17,0,0,0,3.17,3.17H78.51a3.17,3.17,0,0,0,3.17-3.17V28.81a3.17,3.17,0,0,0-3.17-3.17Z" fill="url(#linear-gradient-2)"/>
+    <path d="M44.36,61.7a1.36,1.36,0,0,1-1.14-.63L35.43,48.6H25.69a1.35,1.35,0,0,1,0-2.69H36.17a1.31,1.31,0,0,1,1.14.63l6.92,11.07L55.79,34.53a1.35,1.35,0,0,1,2.42,0L63.88,46.4H83a1.35,1.35,0,0,1,0,2.69H63a1.35,1.35,0,0,1-1.21-.77L57,38.19,45.56,61a1.35,1.35,0,0,1-1.13.74Z" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>
