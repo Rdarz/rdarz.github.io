@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <!-- title and meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description" content=" I'm a Web designer and a developer based in Mumbai, India. I am passionate about web designing and I love to explore new frameworks, libraries and development tools.">
+  <meta name="keywords" content="Web Developer, Web Engineer, Web Designing, React developer, Fullstack Developer, Frontend Developer, Backend Developer, Node Developer, Node.js Developer">
+  <meta name="robots" content="index, follow" >
+  <title>Rahul Darji - Web Developer</title>
+
+  <link rel="canonical" href="http://rahuldarji.com" />
+  <!-- css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis:200,400" rel="stylesheet">
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "ProfessionalService",
+      "name": "Web Developer",
+      "image": "http://rahuldarji.com/images/profile-pic.jpg",
+      "description": "A Web designer and developer based in Mumbai, India. Who is passionate about web designing and love to explore new frameworks, libraries and development tools.",
+      "telephone":"+91-9664083586"
+    }
+  </script>
+  
+  <script src="./js/jquery-3.1.1.min.js"></script>
+  <script>
+  // Select all links with hashes
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      console.log("this.hash",window.location.hash)
+      if (window.location.hash !== "") {
+
+          // Store hash
+          var hash = window.location.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top - $('.homePage').offset().top
+          }, 800, function(){
+       
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+
+      $(".nav a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top - $('.homePage').offset().top
+          }, 800, function(){
+       
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+</head>
+
+<body>
+<!--     <div class="parallelogram">
+    </div> -->
+  <div class="homePage">
+    <div class="navbar navbar-inverse navbar-fixed-left">
+      <ul class="nav navbar-nav">
+
+       <li><a href="#home" data-id="home" class="fa fa-bars"></a></li>
+       <li><a href="#home" data-id="home" class="fa fa-home"></a></li>
+       <li><a href="#about" data-id="about" class="fa fa-user"></a></li>
+       <li><a href="#resume" data-id="resume" class="fa fa-suitcase"></a></li>
+       <li><a href="#education" data-id="education" class="fa fa-graduation-cap"></a></li>
+       <li><a href="#skills" data-id="skills" class="fa fa-television"></a></li>
+       <li><a href="#contact" data-id="contact" class="fa fa-send"></a></li>
+      </ul>
+    </div>
+    <div id="home" class="section banner">
+      <header class="clipPolygon">
+      </header>
+      <div class="barcode-container">
+        <img class="barcode" src="./images/barcode.svg" />
+        <span>[ DOWNLOAD ]</span>
+      </div>
+      <div class="content">
+        <h1>Rahul <span>Darji</span></h1>
+        <h4>
+          <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Web Developer.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+            <span class="wrap"></span>
+          </a>
+        </h4>
+      </div>
+      <div class="profile-img">
+        <img src="./images/profile-pic.jpg" />
+      </div>
+      <div class="sicon col-xs-12">
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+          <div class="icon-circle">
+            <a href="https://www.facebook.com/darji.rahul316" class="ifacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+          </div>
+        </div>
+       
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+          <div class="icon-circle">
+            <a href="https://twitter.com/raul_darz" class="itwittter" title="Twitter"><i class="fa fa-twitter"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+          <div class="icon-circle">
+            <a href="https://plus.google.com/+RahulDarji91" class="igoogle" title="Google+"><i class="fa fa-google-plus"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+          <div class="icon-circle">
+            <a href="https://www.linkedin.com/in/rahuldarji/" class="iLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="contact">
+        <a href="#">
+          <i class="fa fa-phone"></i> +91 9664083586
+        </a> |
+        <a href="#">
+          <i class="fa fa-envelope  "></i> darji.rahul316@gmail.com
+        </a> 
+      </div>
+
+    </div>
+    <div id="about" class="section about container">
+      <div class="title">
+        <h1>About Me</h1>
+      </div>
+      <div class="description">
+        <div class="col-xs-12 col-sm-12 col-md-6">
+          <p>
+            I'm a Web designer and a developer based in Mumbai, India. I am passionate about web designing and I love to explore new frameworks, libraries and development tools.
+          </p>
+          <p>
+            I keep to experimenting with new design patterns.
+          </p>
+          <p>
+            My primary concern in designing is to develop a simple, clean and user friendly design which conveys the intended message accurately.  
+          </p>
+          <br> 
+        </div>
+
+        <table class="col-xs-12 col-sm-12 col-md-6 table-striped">
+          <tr>
+            <td class="col-md-4 title">
+              <i class="cv-icon fa fa-user"></i>Date of birth
+            </td>
+            <td class="col-md-8 text-right">April 1st 1991</td>
+          </tr>
+          <tr>
+            <td class="col-md-4 title">
+              <i class="cv-icon fa fa-language"></i>Languages
+            </td>
+            <td class="col-md-8 text-right">English, Hindi, Gujarati</td>
+          </tr>
+          <tr>
+            <td class="col-md-4 title">
+              <i class="cv-icon fa fa-futbol-o"></i>Hobbies
+            </td>
+            <td class="col-md-8 text-right"> Research & Development</td>
+          </tr>
+          <tr>
+            <td class="col-md-4 title">
+              <i class="cv-icon fa fa-external-link-square"></i>Website
+            </td>
+            <td class="col-md-8 text-right">www.rahuldarji.in</td>
+          </tr>
+
+        </table>
+      </div>
+    </div>
+
+    <div id="resume" class="section container">
+      <div class="title">
+        <h1>Experience</h1>
+      </div>
+      <div class="resume-box col-md-6 col-xs-12 col-sm-12">
+        <div class="resume-title">
+          <h5>Web Engineer - Built.io</h5>
+          <p>2015 to present</p>
+        </div>
+        <p class="description">
+          Built.io is one of the fastest growing company headquartered in San Francisco. It owns some award winning products like: Built.io Backend, Built.io Contentstack(CMS) and Built.io Flow - the integration-as-a-service platform for APIs.
+        </p>
+        <p class="description">
+          This is my first job and i'm working here as a Full-stack Developer from past 2 years.   
+        </p>
+      </div>
+      <div class="resume-box col-md-6 col-xs-12 col-sm-12">
+        <div class="resume-title">
+          <h5>Freelancing Work</h5>
+          <p>2014 to present</p>
+        </div>
+        <p class="description">
+          Web designing and development is my passion and that is why I devote some my time to explore my potential in this field. I have worked on many challenging freelancing projects. 
+        </p>
+      </div>
+      
+    </div>
+
+    <div id="education" class="section container">
+      <div class="title">
+        <h1>Education</h1>
+      </div>
+      <div class="education-box col-md-6 col-xs-12 col-sm-12">
+        <div class="education-title">
+          <h5>MCA - The University of Mumbai</h5>
+          <p>2012-2015</p>
+        </div>
+        <p class="description">
+          I am postgraduate from "Thakur Institute of Management Studies, Career Development & Research" college.
+        </p>
+      </div>
+      <div class="education-box col-md-6    ">
+        <div class="education-title">
+          <h5>BCA</h5>
+          <p>2009-2011</p>
+        </div>
+        <p class="description">
+          I completed my graduation in Bachelor of Computer Application (BCA) from  "University of Pune" (Distance education course), L.N. college of managment & technology.
+        </p>
+      </div>
+      <div class="education-box col-md-6">
+        <div class="education-title">
+          <h5>B.COM</h5>
+          <p>2009-2011</p>
+        </div>
+        <p class="description">
+          I have another degree in Bachelor of Commerse (B.Com) from  "University of Mumbai" from Prahladrai Dalmia Lions College of Commerce & Economics.
+        </p>
+      </div>
+      
+    </div>
+    
+    <div id="skills" class="section container">
+      <div class="title">
+        <h1>Skills</h1>
+      </div>
+      <p class="description">
+        In my journey up till now I have learned many technologies in varied platforms. Apart from web technologies I also know "Autoit" a scripting language and I have tried my hands at native android app development during academic projects. Following are the Web Technologies on which I am  currently working.      
+      </p>
+
+      
+      <div class="skill-box col-md-6">
+        <div class="skills">
+          <div class="skill-title">
+            <h5>Web Technologies</h5>
+            <p>Frontend/Backend</p>
+          </div>
+          <div class="skillbar" data-percent="80%">
+              <div class="skillbar-title"><span>HTML5</span>
+              </div>
+              <div class="skillbar-bar" style="width: 80%;"></div>
+              <div class="skill-bar-percent">80%</div>
+          </div>
+          <div class="skillbar" data-percent="80%">
+              <div class="skillbar-title"><span>CSS3</span>
+              </div>
+              <div class="skillbar-bar" style="width: 80%;"></div>
+              <div class="skill-bar-percent">80%</div>
+          </div>
+          <div class="skillbar" data-percent="60%">
+              <div class="skillbar-title"><span>jQuery</span>
+              </div>
+              <div class="skillbar-bar" style="width: 60%;"></div>
+              <div class="skill-bar-percent">60%</div>
+          </div>
+          <div class="skillbar" data-percent="50%">
+              <div class="skillbar-title"><span>Node.js</span>
+              </div>
+              <div class="skillbar-bar" style="width: 50%;"></div>
+              <div class="skill-bar-percent">50%</div>
+          </div>
+          <div class="skillbar" data-percent="10%">
+              <div class="skillbar-title"><span>Ruby on rails</span>
+              </div>
+              <div class="skillbar-bar" style="width: 10%;"></div>
+              <div class="skill-bar-percent">10%</div>
+          </div>
+          <!-- End Skill Bars -->
+        </div>
+      </div>
+      <div class="skill-box col-md-6">
+        <div class="skills">
+          <div class="skill-title">
+            <h5>Frameworks/Libraries</h5>
+            <p>Frontend/Backend</p>
+          </div>
+          <div class="skillbar" data-percent="80%">
+              <div class="skillbar-title"><span>Bootstrap</span>
+              </div>
+              <div class="skillbar-bar" style="width: 80%;"></div>
+              <div class="skill-bar-percent">80%</div>
+          </div>
+          <div class="skillbar" data-percent="70%">
+              <div class="skillbar-title"><span>React.js</span>
+              </div>
+              <div class="skillbar-bar" style="width: 70%;"></div>
+              <div class="skill-bar-percent">70%</div>
+          </div>
+          <div class="skillbar" data-percent="50%">
+              <div class="skillbar-title"><span>Angular.js</span>
+              </div>
+              <div class="skillbar-bar" style="width: 50%;"></div>
+              <div class="skill-bar-percent">50%</div>
+          </div>
+          <div class="skillbar" data-percent="50%">
+              <div class="skillbar-title"><span>Express</span>
+              </div>
+              <div class="skillbar-bar" style="width: 50%;"></div>
+              <div class="skill-bar-percent">50%</div>
+          </div>
+          <div class="skillbar" data-percent="70%">
+              <div class="skillbar-title"><span>Template Engine - EJS, Jade, Swig, Nunjucks</span>
+              </div>
+              <div class="skillbar-bar" style="width: 70%;"></div>
+              <div class="skill-bar-percent">70%</div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-box col-md-6">
+        <div class="skills">
+          <div class="skill-title">
+            <h5>Development Tools</h5>
+            <p>Frontend/Backend</p>
+          </div>
+        </div>
+        <div class="skillbar" data-percent="80%">
+          <div class="skillbar-title"><span>Gulp - Task Builder</span>
+          </div>
+          <div class="skillbar-bar" style="width: 80%;"></div>
+          <div class="skill-bar-percent">80%</div>
+        </div>
+        <div class="skillbar" data-percent="60%">
+            <div class="skillbar-title"><span>Sass - CSS Preprocessor</span>
+            </div>
+            <div class="skillbar-bar" style="width: 60%;"></div>
+            <div class="skill-bar-percent">60%</div>
+        </div>
+        <div class="skillbar" data-percent="80%">
+            <div class="skillbar-title"><span>GIT/SVN - Versioning System</span>
+            </div>
+            <div class="skillbar-bar" style="width: 80%;"></div>
+            <div class="skill-bar-percent">80%</div>
+        </div>
+          <!-- End Skill Bars -->
+      </div>
+      <div class="skill-box col-md-6">
+        <div class="skills">
+          <div class="skill-title">
+            <h5>Other</h5>
+            <p>Frontend/Backend</p>
+          </div>
+        </div>
+        <div class="skillbar" data-percent="60%">
+          <div class="skillbar-title"><span>Wordpress</span>
+          </div>
+          <div class="skillbar-bar" style="width: 60%;"></div>
+          <div class="skill-bar-percent">60%</div>
+        </div>
+        <div class="skillbar" data-percent="30%">
+            <div class="skillbar-title"><span>SEO</span>
+            </div>
+            <div class="skillbar-bar" style="width: 30%;"></div>
+            <div class="skill-bar-percent">30%</div>
+        </div>
+        <div class="skillbar" data-percent="50%">
+            <div class="skillbar-title"><span>Web Hosting</span>
+            </div>
+            <div class="skillbar-bar" style="width: 50%;"></div>
+            <div class="skill-bar-percent">50%</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="section container">
+      <div class="title">
+        <h1>Contact</h1>
+      </div>
+        <div class="col-md-6">
+          <h5>I am always looking for opportunities to grow.</h5>
+          <p>
+            If you have anything interesting that suits my profile, get in touch.
+
+          </p>
+          <table class="table-striped">
+            <tr>
+              <td class="col-md-4 title">
+                <i class="cv-icon fa fa-phone-square"></i>Phone
+              </td>
+              <td class="col-md-8 text-right">+91-9664083586</td>
+            </tr>
+            <tr>
+              <td class="col-md-4 title">
+                <i class="cv-icon fa fa-envelope"></i>Email
+              </td>
+              <td class="col-md-8 text-right">darji.rahul316@gmail.com</td>
+            </tr>
+            <tr>
+              <td class="col-md-4 title">
+                <i class="cv-icon fa fa-map"></i>Address
+              </td>
+              <td class="col-md-8 text-right"> Malad-East, Mumbai-97.</td>
+            </tr>
+
+          </table>
+        </div>
+        <div class="col-md-6">
+         <iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJpWbJngS35zsRQAeja2xcu88&key=AIzaSyBEpGjZHKTsTmL2DjO6dt90sMkW648JupQ" allowfullscreen></iframe>  
+        </div>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+  <!-- <script type="text/javascript" src="./js/scroll.min.js"></script> -->
+  <!-- <script type="text/javascript" src="./js/smoothscroll.js"></script> -->
+ 
+  <!-- <script src="js/script.js"></script> -->
+</body>
+</html>

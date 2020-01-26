@@ -1,0 +1,583 @@
+/*#clipPolygon{
+-webkit-clip-path: polygon(0px 272px,663px 205px,865px -1px,0px 0px);
+clip-path: url("#clipPolygon");
+	
+}*/
+/*Chrome,Safari*/
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch; 
+}
+body{
+  background: #F4F4F4;
+}
+p,a{
+  font-family: 'Dosis', sans-serif;
+  text-align: justify;
+}
+h1,h2,h3,h4,h5,h6{}
+table td{
+  padding: 10px;
+  font-size:1.3vw; 
+}
+table td.title{
+  font-weight: 600;
+  color: #666;
+}
+table td i{
+  padding: 0 10px;
+}
+
+table{margin-bottom: 2em}
+
+/*Firefox*/
+header{
+	background: #0D1034;
+	width: 100%;
+	height: 450px;
+}
+.section{
+	position: relative;
+  margin: 1em;
+  padding: 5em;
+  width: 98%;
+}
+.section#home{
+  margin: 0;
+  padding: 0;
+}
+.section.about,
+.section#resume,
+.section#contact,
+.section#skills,
+.section#education{
+  background: #FFF
+}
+.sicon{
+	position: absolute;
+	z-index: 1;
+	bottom: 15%;
+  right: 14.5%;
+  width: 28%; 
+}
+.clipPolygon{
+	-webkit-clip-path: polygon(0 85%,75% 55%,85% 0,0 0);
+	clip-path: polygon(0 85%,75% 55%,85% 0,0 0);
+}
+
+.profile-img{
+	position: absolute;
+  right: 20%;
+  top: 30%;
+  z-index: 1;
+width: 200px;
+    height: 200px;
+  margin: auto;
+  text-align: center;
+  border-radius: 100px;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #1abc9c;
+  border: 3px solid #f4f4f4;
+  /* -webkit-transform: rotateZ(-45deg); */
+  /* transform: rotateZ(-45deg); */
+  /* -webkit-transform-origin: 0 100% 0deg; */
+  overflow: hidden;
+}
+img{
+	/*width: 100%;*/
+	height: 100%;
+
+}
+.content{
+	position: absolute;
+  left: 25%;
+  top: 18%;
+	z-index: 1;
+	/*text-align: center;*/
+}
+.content h1{
+	color: #FF6364;
+	font-size: 3.5vw
+}
+/*.content h1 span{color: #d66865}*/
+.content h4{color: #fff;font-size: 2vw}
+.content h4 a{
+	color: inherit;
+}
+.contact i{
+	color:#D6CC53;
+}
+.contact{
+	position: absolute;
+  bottom: 3%;
+  right: 8%;
+  font-size: 22px;
+}
+.contact a{
+  padding: 0 15px;
+	color:#353535;
+}
+.icon-circle a{
+  text-align: center !important;
+}
+/*.icon-circle{overflow: hidden;}*/
+.icon-circle .fa{
+    font-size           : 25px;
+    color               : #e84700;
+    margin              : 5px auto;
+    height              : 35px;
+    width               : 35px;
+    border-radius       : 50%;
+    border              :	2px solid #e84700;
+    line-height         : 30px;
+    cursor              : pointer;
+    -webkit-transition  : all  ease-in-out 0.35s;
+    -moz-transition     : all  ease-in-out 0.35s;
+    -o-transition       : all  ease-in-out 0.35s;
+    -ms-transition      : all  ease-in-out 0.35s;
+    transition          : all  ease-in-out 0.20s,background-color ease-in-out 0.05s;
+}
+
+.icon-circle  .fa:hover{
+    
+    background-color        : #e84700;    
+    color                   : #fff;
+    border                  : 1px solid #e84711;
+    -moz-box-shadow         : inset 0px 0px 0px 2px #ffffff;
+    -o-box-shadow           : inset 0px 0px 0px 2px #ffffff;
+    -ms-box-shadow          : inset 0px 0px 0px 2px #ffffff;
+    -webkit-box-shadow      : inset 0px 0px 0px 2px #ffffff;
+    box-shadow              : inset 0px 0px 0px 2px #ffffff;
+    -ms-transform           : scale(1.2,1.2); 
+    -webkit-transform       : scale(1.2,1.2);
+    -moz-transform          : scale(1.2,1.2); 
+    -o-transform            : scale(1.2,1.2); 
+    transform               : scale(1.2,1.2);  
+}
+
+.icon-circle  i:before{
+    margin-left         : 0px;
+    font-size           : 18px;
+}
+
+
+.ifacebook .fa{
+    color :#3B5998;
+    border              :2px solid #3B5998;
+}
+
+.ifacebook .fa:hover{
+    
+    background-color        : #3B5998;    
+    color                   : #fff;
+    border                  : 1px solid #3B5998;
+
+}
+
+.itwittter .fa{
+    color               : #33ccff;
+    border              :2px solid #33ccff;
+}
+
+.itwittter .fa:hover{
+    
+    background-color        : #33ccff;    
+    color                   : #fff;
+    border                  : 1px solid #33ccff;
+
+}
+
+.igoogle .fa{
+  color               : #BD3518;
+  border              :2px solid #BD3518;
+}
+
+.igoogle .fa:hover{
+    
+  background-color        : #BD3518;    
+  color                   : #fff;
+  border                  : 1px solid #BD3518;
+
+}
+
+.iLinkedin .fa{
+  color               : #007bb7;
+  border              :2px solid #007bb7;
+}
+
+.iLinkedin .fa:hover{
+  background-color        :#007bb7;    
+  color                   : #fff;
+  border                  : 1px solid #007bb7;
+}
+.section .title h1{
+	position: relative;
+	margin: 1em 15px;
+}
+.section .title h1::after{
+	width: 100px;
+  height: 3px;
+  position: absolute;
+  text-align: center;
+  bottom: -10px;
+  left: 0;
+  margin: 0px;
+  z-index: 1;
+  content: '';
+  background-color: #de3926
+}
+.about .description p{
+	font-size: 1.5vw;
+  text-align: justify;
+}
+.typewriter h4 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+.barcode{
+  width: 55%;
+  height: auto;
+}
+
+.barcode-container{
+  top: 0; 
+  position: absolute;
+  left: 10%;
+  bottom: 12%;
+  padding: 8% 0px;
+  text-align: center;
+}
+.barcode-container span{
+  display: block;
+  color: #FF6364;
+  font-size: 1.7vw;
+  padding: 10px 0;
+}
+
+
+/*=====================Right side Fixed Navigation==========================*/
+.navbar-fixed-left {
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+.navbar-fixed-left .navbar-nav{
+  margin: 0 -15px;
+}
+.navbar-fixed-left a.fa.fa-bars{
+  background: #de3926;
+  color: #FFF !important;
+}
+.navbar-fixed-left a.fa.fa-bars:hover{
+  background: #de3926;
+}
+.navbar-fixed-left a.fa{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.navbar-fixed-left .navbar-nav > li {
+  float: none;  /* Cancel default li float: left */
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  font-size: 2em;
+  padding: 15px 20px;
+  line-height: 1.5em;
+  text-align: center;
+}
+.navbar-fixed-left + .container {
+  padding-left: 160px;
+}
+
+/* On using dropdown menu (To right shift popuped) */
+.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+  margin-top: -50px;
+  margin-left: 140px;
+}
+
+
+
+
+
+
+
+/*==============================================================================*/
+.skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 42px;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: background-color;
+    -moz-transition-property: background-color;
+    -ms-transition-property: background-color;
+    -o-transition-property: background-color;
+    transition-property: background-color;
+        background-color: #fff;
+    border: 1px solid #f3f3f3;
+}
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #949494;
+}
+.skillbar-title span {
+    display: block;
+    padding: 0 15px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+}
+.skillbar-bar {
+    background-color: #f3f3f3;
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.01) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.01) 50%, rgba(0, 0, 0, 0.01) 75%, transparent 75%, transparent);
+        height: 40px;
+    -webkit-animation: animate-bg 5s linear infinite;
+    -moz-animation: animate-bg 5s linear infinite;
+    -o-animation: animate-bg 5s linear infinite;
+    animation: animate-bg 5s linear infinite;
+    background-size: 40px 40px;
+}
+.skill-bar-percent {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    opacity: 0.5;
+    color: #949494;
+}
+
+/*=============================================================*/
+.skill-box{
+  margin-top: 30px; 
+}
+
+#resume p.description,#education p.description,#skills p.description{
+  font-family: inherit;
+}
+
+.resume-box .resume-title h5, .skill-box .skill-title h5, .education-box .education-title h5, #contact h5{
+  font-size: 22px;
+  color: #222;
+  margin-top: 0
+}
+.resume-box .resume-title p, .skill-box .skill-title p, .education-box .education-title p{font-size: 18px;color: #949494;margin-bottom: 0}
+.resume-box .resume-title, .skill-box .skill-title, .education-box .education-title{
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #f3f3f3;
+}
+.resume-box p, .skill-box p, .education-box p, #contact p{
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  word-spacing: 0.15em;
+  letter-spacing: 0.01em;
+}
+
+#skills p.description{
+ padding:0 15px;
+ font-size: 18px;  
+}
+
+
+#contact table{width:100%;}
+
+
+
+/*=============================responsive======================================*/
+@media (min-width:320px) and (max-width:568px) {
+
+  .sicon {
+    /*left: 80%;*/
+    /*top: 5%;*/
+    right: 0;
+    width: 70%;
+  }
+  .profile-img{
+    right: 16%;
+    top: 45%;
+    width: 115px;
+    height: 115px;
+  } 
+  .barcode-container{
+    display: none;
+    /*bottom: 30%;
+    left: 52%;*/
+    
+  }
+  .barcode{
+    /*width: 25%;*/
+    /* top: 0px; */
+  } 
+  .content {
+    left: 18%;
+    top: 10%;
+  }
+  .content h1 {
+    font-size: 10vw;
+  }
+  .content h4 {
+    font-size: 6vw;
+  }
+
+  .contact{
+    bottom: 2%;
+    right: 0%;
+    font-size: 4vw;  
+  }
+  header{
+    height: 400px;
+  }
+  .section{
+    padding:0; 
+    padding-left: 45px !important;
+  }
+  .about .description p{
+    font-size: 16px;
+  }
+  .contact a{
+    padding: 0 10px;
+  }
+  table td {
+    font-size: 3vw;
+  }
+  .skillbar-title span{
+    font-size: 12px;
+  }
+  #contact{margin-bottom: 2em}
+  iframe{
+    height: 210px;
+    margin-bottom:2em;
+  }
+}
+@media (min-width:569px) and (max-width:768px) {
+
+
+/* .icon-circle .fa{
+    font-size           : 15px;
+    color               : #e84700;
+    margin              : 0 auto;
+    height              : 40px;
+    width               : 40px;
+    border-radius       : 50%;
+    border              :2px solid #e84700;
+    line-height         : 40px;
+    cursor              : pointer;
+    -webkit-transition  : all  ease-in-out 0.35s;
+    -moz-transition     : all  ease-in-out 0.35s;
+    -o-transition       : all  ease-in-out 0.35s;
+    -ms-transition      : all  ease-in-out 0.35s;
+    transition          : all  ease-in-out 0.20s,background-color ease-in-out 0.05s;
+  }
+
+  .icon-circle  .fa:hover{    
+      background-color        : #e84700;    
+      color                   : #fff;
+      border                  : 1px solid #e84711;
+      -moz-box-shadow         : inset 0px 0px 0px 5px #ffffff;
+      -o-box-shadow           : inset 0px 0px 0px 5px #ffffff;
+      -ms-box-shadow          : inset 0px 0px 0px 5px #ffffff;
+      -webkit-box-shadow      : inset 0px 0px 0px 5px #ffffff;
+      box-shadow              : inset 0px 0px 0px 5px #ffffff;
+      -ms-transform           : scale(1.2,1.2); 
+      -webkit-transform       : scale(1.2,1.2);
+      -moz-transform          : scale(1.2,1.2); 
+      -o-transform            : scale(1.2,1.2); 
+      transform               : scale(1.2,1.2);  
+  }
+
+  .icon-circle  i:before{
+      margin-left         : 0px;
+      font-size           : 20px;
+  } */
+
+  .sicon {
+    /*top: 2%;*/
+    /*right: -25%;*/
+    right: 2%;
+    width: 40%;
+  }
+  .profile-img{
+    right: 15%;
+    top: 40%;
+    width: 130px;
+    height: 130px;
+  } 
+  .barcode{
+    width: 50%;
+    /* top: 0px; */
+    bottom: 30%;
+    left: 30%;
+  } 
+  .barcode-container span{
+    font-size: 2vw; 
+  }
+  .content {
+    left: 30%;
+    top: 10%;
+  }
+  .content h1 {
+    font-size: 4vw;
+  }
+  .content h4 {
+    font-size: 3vw;
+  }
+
+  .contact{
+    bottom: 3%;
+    right: 0;
+    font-size: 3vw;
+  }
+  header{
+    height: 400px;
+  }
+  .section{
+    padding:0; 
+    padding-left: 45px !important;
+  }
+  .about .description p{
+    font-size: 3vw;
+  }
+  table td {
+    font-size: 2.5vw;
+  }
+  .skillbar-title span{
+    font-size: 12px;
+  }
+}
